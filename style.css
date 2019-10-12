@@ -190,5 +190,63 @@ section.benefits {
 }
 
 section.benefits div.container {
-    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 30px 50px;
+}
+
+section.benefits div:first-child{
+    margin-top: 80px;
+}
+
+section.benefits div:last-child {
+    margin-bottom: 80px;
+}
+
+section.benefits h2 {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+section.benefits p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+div.red-line {
+    border: 3px solid #FB3B64;
+}
+
+div.blue-line {
+    border: 3px solid #08A6E4;
+}
+
+div.mint-line {
+    border: 3px solid #55DFB4;
+}
+
+.benefits article {
+    max-width: 45%;
+}
+
+section.benefits div.image {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.image img {
+    max-width: 80%;
+}
+
+.benefits .trumpet {
+    background-color: #55DFB4;
+    border-radius: 5px;
 }
