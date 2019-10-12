@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+}
+
+.container {
+    width: 1352px;
+}
+
+/*----------STYLING HEADER----------*/
+
+header.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(149,152,154, .5);
+    box-shadow: 0 3px 6px #95989A;
+    position: sticky;
+    top: 0;
+    margin-bottom: 100px;
+}
+
+div.logo, nav.menu {
+    padding: 10px 150px;
+}
+
+h2.logo-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #08A6E4;
+}
+
+ul.main-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li a {
+    padding: 0 13px;
+    margin: 0 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+li a:hover {
+    color: black;
+    border-bottom: 5px solid #08A6E4;
+    padding: 20px 13px;
+}
+/*----------STYLING MAIN----------*/
+
+/*---SECTION.BANNER---*/
+
+section.banner {
+    background-image: url("assets/Background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+}
+
+section.banner div.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 450px;
+}
+
+h1.main-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+p.slogan {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+a.open-your-shop {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #08A6E4;
+    border-radius: 35px;
+    padding: 20px 150px;
+    text-decoration: none;
+    margin: 20px;
+}
+/*---SECTION.WHY-US---*/
+
+section.why-us {
+    display: flex;
+    justify-content: center;
+}
+
+section.why-us div.container {
+    box-sizing: border-box;
+    padding: 90px 150px;
+}
+
+section h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+section.why-us h2 {
+    text-align: center;
+}
+
+div.why-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.column-why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0 115px;
+    margin-top: 90px;
+}
+
+div.dot {
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.person {
+    background-color: #FB3B64;
+}
+
+.eye {
+    background-color: #08A6E4;
+}
+
+.catalog {
+    background-color: #55DFB4;
+}
+
+.img-why-us {
+    position: relative;
+    left: 20px;
+}
+
+div.why-us h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin: 15px 0;
+}
+
+div.why-us p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+
+/*---SECTION.BENEFITS---*/
+
+section.benefits {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.benefits div.container {
+    border: 1px solid black;
+}
