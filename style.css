@@ -244,8 +244,9 @@ div.mint-line {
     margin-bottom: 90px;
 }
 
-
-
+.red-line, .blue-line, .mint-line {
+    WIDTH: 70%;
+}
 /*section.benefits div.image {
     max-width: 50%;
     display: flex;
@@ -273,9 +274,10 @@ div.image img {
 }
 
 img.trumpet {
+    height: 70%;
     position: relative;
-    top: 100px;
-    right: 45px;
+    top: 130px;
+    left: 25px;
 }
 
 /*
@@ -286,8 +288,14 @@ section.prices {
     justify-content: center;
 }
 
+section.prices div.box {
+    box-sizing: border-box;
+    padding: 70px;
+}
+
 section.prices h2 {
     text-align: center;
+    margin-bottom: 35px;
 }
 
 div.pricing {
@@ -299,4 +307,105 @@ div.column-pricing {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 0 25px;
+    padding: 30px 150px;
+    padding-bottom: 100px;
+}
+
+div.pricing div.blue {
+    padding: 30px 165px;
+}
+
+div.box div.red {
+    border-color: #FB3B64;
+}
+
+div.box div.blue {
+    border-color: #08A6E4;
+}
+
+div.box div.mint {
+    border-color: #55DFB4;
+}
+
+section.prices h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+div.price {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 300;
+    margin: 15px;
+}
+div.red div.price {
+    color: #FB3B64;
+}
+
+div.blue div.price {
+    color: #08A6E4;
+}
+
+div.mint div.price {
+    color: #55DFB4;
+}
+
+section.prices p.small {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+section.prices p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 13px;
+}
+
+section.prices img {
+    margin-right: 5px;
+}
+
+
+
+
+
+/*
+STYLING SECTION.CONTACT*/
+
+section.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact div.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+}
+
+div.questions > p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+div.contact-info {
+    display: flex;
+}
+
+.questions p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-size: 500;
+    color: #95989A;
 }
