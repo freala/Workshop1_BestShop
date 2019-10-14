@@ -26,7 +26,7 @@ header.page-header {
 }
 
 div.logo, nav.menu {
-    padding: 10px 150px;
+    padding: 15px 150px;
 }
 
 h2.logo-title {
@@ -43,8 +43,8 @@ ul.main-menu {
 }
 
 li a {
-    padding: 0 13px;
-    margin: 0 40px;
+    padding: 20px 13px;
+    /*margin: 0 40px;*/
     text-decoration: none;
     text-transform: uppercase;
     color: gray;
@@ -58,6 +58,7 @@ li a:hover {
     border-bottom: 5px solid #08A6E4;
     padding: 20px 13px;
 }
+
 /*----------STYLING MAIN----------*/
 
 /*---SECTION.BANNER---*/
@@ -177,9 +178,6 @@ div.why-us p {
     text-align: center;
 }
 
-
-
-
 /*---SECTION.BENEFITS---*/
 
 section.benefits {
@@ -247,26 +245,41 @@ div.mint-line {
 .red-line, .blue-line, .mint-line {
     WIDTH: 70%;
 }
-/*section.benefits div.image {
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-div.image img {
-    max-width: 80%;
-}
 
 .back-diamond {
     background-color: #FB3B64;
-    border-radius: 50px;
+    border-radius: 30px;
     transform: rotate(45deg);
-    width: 35%;
-    height: 60%;
-}*/
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right: 75px;
+    top: 50px;
+}
+
+.back-diamond img {
+    position: relative;
+    transform: rotate(-45deg);
+    right: 170px;
+    top: 140px;
+    width: 200%;
+}
+
+.back-circle {
+    background-color: #08A6E4;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 20px;
+}
+
+.back-circle img {
+    position: relative;
+    width: 155%;
+    left: 1px;
+    top: 25px;
+}
 
 .benefits div.trumpet {
     background-color: #55DFB4;
@@ -280,8 +293,7 @@ img.trumpet {
     left: 25px;
 }
 
-/*
-STYLING SECTION.PRICES*/
+/*---STYLING SECTION.PRICES---*/
 
 section.prices {
     display: flex;
@@ -309,13 +321,18 @@ div.column-pricing {
     align-items: center;
     border: 1px solid;
     border-radius: 15px;
-    margin: 0 25px;
-    padding: 30px 150px;
-    padding-bottom: 100px;
+    margin: 0 30px;
+    padding: 30px 120px;
+    padding-bottom: 0;
 }
 
 div.pricing div.blue {
-    padding: 30px 165px;
+    padding: 30px 130px 0 130px;
+    box-shadow: 3px 14px 20px rgba(7,172,230,0.3)
+}
+
+div.pricing div.red, div.pricing div.mint {
+    margin: 30px;
 }
 
 div.box div.red {
@@ -361,6 +378,10 @@ section.prices p.small {
     margin-bottom: 50px;
 }
 
+section.prices div.blue p.small {
+    margin-bottom: 70px;
+}
+
 section.prices p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -371,12 +392,32 @@ section.prices img {
     margin-right: 5px;
 }
 
+section.prices button {
+    position: relative;
+    top: 35px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 25px 80px;
+}
 
+div.red button {
+    background-color: #FB3B64;
+}
 
+div.pricing div.blue button {
+    background-color: #08A6E4;
+    top: 75px;
+}
 
+div.mint button {
+    background-color: #55DFB4;
+}
 
-/*
-STYLING SECTION.CONTACT*/
+/*---STYLING SECTION.CONTACT---*/
 
 section.contact {
     display: flex;
@@ -385,27 +426,135 @@ section.contact {
 
 .contact div.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 100px 150px;
+    box-sizing: border-box;
 }
 
-.contacts h2 {
+div.questions, div.your-info {
+    max-width: 50%;
+}
+
+div.questions h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 49px;
+    padding: 20px 0;
 }
 
 div.questions > p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: black;
+    padding-bottom: 25px;
 }
 
 div.contact-info {
     display: flex;
+    align-items: center;
 }
 
 .questions p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-size: 500;
+    font-weight: 500;
     color: #95989A;
+    padding: 0 15px 0 10px;
+}
+
+div.contact-info img {
+    position: relative;
+    top: 10px;
+}
+
+div.your-info {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    display: block;
+    color: #08A6E4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+form input.data {
+    border: none;
+    border-bottom: 1px solid #95989A;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+input[type=checkbox] { display:none; }
+
+input.checkbox-custom + p:before {
+    content: '';
+    border: 1px solid #95989A;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+input.checkbox-custom:checked + p:before {
+    content: url("assets/Checkmark.svg");
+}
+
+div.your-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+button.send {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background-color: #08A6E4;
+    border: none;
+    border-radius: 40px;
+    padding: 25px 90px;
+}
+
+/*-----STYLING FOOTER-----*/
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(149,152,154, .5);
+    box-shadow: 0 3px 15px #95989A;
+}
+
+div.footer, div.icons {
+    padding: 20px 160px;
+}
+
+div.footer h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #08A6E4;
+}
+
+p.copywright {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #95989A;
+}
+
+div.icons img {
+    height: 24px;
+    width: 24px;
+    padding: 0 5px;
 }
