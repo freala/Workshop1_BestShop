@@ -23,6 +23,8 @@ header.page-header {
     position: sticky;
     top: 0;
     margin-bottom: 100px;
+    z-index: 3;
+    background-color: white;
 }
 
 div.logo, nav.menu {
@@ -44,7 +46,7 @@ ul.main-menu {
 
 li a {
     padding: 20px 13px;
-    /*margin: 0 40px;*/
+    margin: 0 50px;
     text-decoration: none;
     text-transform: uppercase;
     color: gray;
