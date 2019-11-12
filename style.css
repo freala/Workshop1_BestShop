@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    //font-size: 16px;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 
 /*----------STYLING HEADER----------*/
 
-header.page-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,14 +32,14 @@ div.logo, nav.menu {
     padding: 15px 150px;
 }
 
-h2.logo-title {
+h2.logo__text {
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     font-weight: 300;
     color: #08A6E4;
 }
 
-ul.main-menu {
+ul.main__menu {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -82,7 +83,7 @@ section.banner div.container {
     margin-bottom: 450px;
 }
 
-h1.main-title {
+h1.main__header {
     font-family: 'Raleway', sans-serif;
     font-size: 49px;
     font-weight: 400;
@@ -94,7 +95,7 @@ p.slogan {
     font-size: 16px;
 }
 
-a.open-your-shop {
+a.open__shop {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -107,12 +108,12 @@ a.open-your-shop {
 }
 /*---SECTION.WHY-US---*/
 
-section.why-us {
+section#why__us {
     display: flex;
     justify-content: center;
 }
 
-section.why-us div.container {
+section#why__us div.container {
     box-sizing: border-box;
     padding: 90px 150px;
 }
@@ -123,16 +124,16 @@ section h2 {
     font-weight: 400;
 }
 
-section.why-us h2 {
+section#why__us h2 {
     text-align: center;
 }
 
-div.why-us {
+div.why__us {
     display: flex;
     justify-content: space-between;
 }
 
-div.column-why-us {
+div.column__why__us {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,12 +162,12 @@ div.dot {
     background-color: #55DFB4;
 }
 
-.img-why-us {
+.img__why__us {
     position: relative;
     left: 20px;
 }
 
-div.why-us h3 {
+div.why__us h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 900;
@@ -174,7 +175,7 @@ div.why-us h3 {
     margin: 15px 0;
 }
 
-div.why-us p {
+div.why__us p {
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -182,14 +183,14 @@ div.why-us p {
 
 /*---SECTION.BENEFITS---*/
 
-section.benefits {
+section#benefits {
     background-color: #F7F7F7;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section.benefits div.frame {
+section#benefits div.frame {
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -198,57 +199,57 @@ section.benefits div.frame {
     padding: 30px 50px;
 }
 
-section.benefits .frame:first-child{
+section#benefits .frame:first-child{
     margin-top: 80px;
 }
 
-section.benefits .frame:last-child {
+section#benefits .frame:last-child {
     margin-bottom: 80px;
     background-color: #F7F7F7;
     padding: 0;
 }
 
-.benefits article {
+#benefits article {
     max-width: 45%;
 }
 
-.benefits article.small {
+#benefits article.small {
     background-color: white;
     border-radius: 5px;
     padding: 30px 50px;
 }
 
-section.benefits h2 {
+section#benefits h2 {
     padding-top: 90px;
     padding-bottom: 60px;
 }
 
-section.benefits p {
+section#benefits p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding-bottom: 60px;
 }
 
-div.red-line {
+div.red__line {
     border: 3px solid #FB3B64;
     margin-bottom: 90px;
 }
 
-div.blue-line {
+div.blue__line {
     border: 3px solid #08A6E4;
     margin-bottom: 90px;
 }
 
-div.mint-line {
+div.mint__line {
     border: 3px solid #55DFB4;
     margin-bottom: 90px;
 }
 
-.red-line, .blue-line, .mint-line {
+.red__line, .blue__line, .mint__line {
     WIDTH: 70%;
 }
 
-.back-diamond {
+.back__diamond {
     background-color: #FB3B64;
     border-radius: 30px;
     transform: rotate(45deg);
@@ -259,7 +260,7 @@ div.mint-line {
     top: 50px;
 }
 
-.back-diamond img {
+.back__diamond img {
     position: relative;
     transform: rotate(-45deg);
     right: 170px;
@@ -267,7 +268,7 @@ div.mint-line {
     width: 200%;
 }
 
-.back-circle {
+.back__circle {
     background-color: #08A6E4;
     border-radius: 50%;
     width: 350px;
@@ -276,14 +277,14 @@ div.mint-line {
     left: 20px;
 }
 
-.back-circle img {
+.back__circle img {
     position: relative;
     width: 155%;
     left: 1px;
     top: 25px;
 }
 
-.benefits div.trumpet {
+#benefits div.trumpet {
     background-color: #55DFB4;
     border-radius: 5px;
 }
@@ -297,17 +298,17 @@ img.trumpet {
 
 /*---STYLING SECTION.PRICES---*/
 
-section.prices {
+section#prices {
     display: flex;
     justify-content: center;
 }
 
-section.prices div.box {
+section#prices div.box {
     box-sizing: border-box;
     padding: 70px;
 }
 
-section.prices h2 {
+section#prices h2 {
     text-align: center;
     margin-bottom: 35px;
 }
@@ -317,7 +318,7 @@ div.pricing {
     justify-content: space-between;
 }
 
-div.column-pricing {
+div.column__pricing {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -373,28 +374,28 @@ div.mint div.price {
     color: #55DFB4;
 }
 
-section.prices p.small {
+section#prices p.small {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: 700;
     margin-bottom: 50px;
 }
 
-section.prices div.blue p.small {
+section#prices div.blue p.small {
     margin-bottom: 70px;
 }
 
-section.prices p {
+section#prices p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     margin: 13px;
 }
 
-section.prices img {
+section#prices img {
     margin-right: 5px;
 }
 
-section.prices button {
+section#prices button {
     position: relative;
     top: 35px;
     border: none;
@@ -421,19 +422,19 @@ div.mint button {
 
 /*---STYLING SECTION.CONTACT---*/
 
-section.contact {
+section#contact {
     display: flex;
     justify-content: center;
 }
 
-.contact div.container {
+#contact div.container {
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
     box-sizing: border-box;
 }
 
-div.questions, div.your-info {
+div.questions, div.your__info {
     max-width: 50%;
 }
 
@@ -450,7 +451,7 @@ div.questions > p {
     padding-bottom: 25px;
 }
 
-div.contact-info {
+div.contact__info {
     display: flex;
     align-items: center;
 }
@@ -463,12 +464,12 @@ div.contact-info {
     padding: 0 15px 0 10px;
 }
 
-div.contact-info img {
+div.contact__info img {
     position: relative;
     top: 10px;
 }
 
-div.your-info {
+div.your__info {
     display: flex;
     flex-direction: column;
 }
@@ -510,7 +511,7 @@ input.checkbox-custom:checked + p:before {
     content: url("assets/Checkmark.svg");
 }
 
-div.your-info p {
+div.your__info p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 20px;
@@ -530,7 +531,7 @@ button.send {
 
 /*-----STYLING FOOTER-----*/
 
-.page-footer {
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
