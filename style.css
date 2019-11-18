@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    //font-size: 16px;
+    font-size: 16px;
 }
 
 body {
@@ -23,18 +23,18 @@ header{
     box-shadow: 0 3px 6px #95989A;
     position: sticky;
     top: 0;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
     z-index: 3;
     background-color: white;
 }
 
 div.logo, nav.menu {
-    padding: 15px 150px;
+    padding: 1rem 10rem;
 }
 
 h2.logo__text {
     font-family: 'Raleway', sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 300;
     color: #08A6E4;
 }
@@ -46,20 +46,20 @@ ul.main__menu {
 }
 
 li a {
-    padding: 20px 13px;
-    margin: 0 50px;
+    padding: 1.25rem 0.8rem;
+    margin: 0 3rem;
     text-decoration: none;
     text-transform: uppercase;
     color: gray;
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: 700;
 }
 
 li a:hover {
     color: black;
     border-bottom: 5px solid #08A6E4;
-    padding: 20px 13px;
+    padding: 1.25rem 0.8rem;
 }
 
 /*----------STYLING MAIN----------*/
@@ -80,31 +80,31 @@ section.banner div.container {
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 450px;
+    margin-bottom: 28rem;
 }
 
 h1.main__header {
     font-family: 'Raleway', sans-serif;
-    font-size: 49px;
+    font-size: 3rem;
     font-weight: 400;
-    margin: 10px;
+    margin: 0.6rem;
 }
 
 p.slogan {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 a.open__shop {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     color: white;
     background-color: #08A6E4;
-    border-radius: 35px;
-    padding: 20px 150px;
+    border-radius: 2rem;
+    padding: 1.25rem 9.4rem;
     text-decoration: none;
-    margin: 20px;
+    margin: 1.25rem;
 }
 /*---SECTION.WHY-US---*/
 
@@ -115,12 +115,12 @@ section#why__us {
 
 section#why__us div.container {
     box-sizing: border-box;
-    padding: 90px 150px;
+    padding: 5.6rem 9.4rem;
 }
 
 section h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -138,14 +138,14 @@ div.column__why__us {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    margin: 0 115px;
-    margin-top: 90px;
+    margin: 0 7.2rem;
+    margin-top: 5.6rem;
 }
 
 div.dot {
     border-radius: 50%;
-    width: 60px;
-    height: 50px;
+    width: 3.75rem;
+    height: 3.15rem;
     display: flex;
     align-items: center;
 }
@@ -164,20 +164,20 @@ div.dot {
 
 .img__why__us {
     position: relative;
-    left: 20px;
+    left: 1.25rem;
 }
 
 div.why__us h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 900;
     letter-spacing: 3px;
-    margin: 15px 0;
+    margin: 1rem 0;
 }
 
 div.why__us p {
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -195,16 +195,16 @@ section#benefits div.frame {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
-    padding: 30px 50px;
+    margin: 2.5rem 0;
+    padding: 1.8rem 3.15rem;
 }
 
 section#benefits .frame:first-child{
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 section#benefits .frame:last-child {
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     background-color: #F7F7F7;
     padding: 0;
 }
@@ -216,33 +216,34 @@ section#benefits .frame:last-child {
 #benefits article.small {
     background-color: white;
     border-radius: 5px;
-    padding: 30px 50px;
+    padding: 1.8rem 3.15rem;
+    float: left;
 }
 
 section#benefits h2 {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 5.65rem;
+    padding-bottom: 3.75rem;
 }
 
 section#benefits p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    padding-bottom: 60px;
+    font-size: 1rem;
+    padding-bottom: 3.75rem;
 }
 
 div.red__line {
     border: 3px solid #FB3B64;
-    margin-bottom: 90px;
+    margin-bottom: 5.6rem;
 }
 
 div.blue__line {
     border: 3px solid #08A6E4;
-    margin-bottom: 90px;
+    margin-bottom: 5.6rem;
 }
 
 div.mint__line {
     border: 3px solid #55DFB4;
-    margin-bottom: 90px;
+    margin-bottom: 5.6rem;
 }
 
 .red__line, .blue__line, .mint__line {
@@ -251,49 +252,48 @@ div.mint__line {
 
 .back__diamond {
     background-color: #FB3B64;
-    border-radius: 30px;
+    border-radius: 1.8rem;
     transform: rotate(45deg);
-    width: 250px;
-    height: 250px;
+    width: 15.6rem;
+    height: 15.6rem;
     position: relative;
-    right: 75px;
-    top: 50px;
+    right: 4.7rem;
+    top: 3.15rem;
 }
 
 .back__diamond img {
     position: relative;
     transform: rotate(-45deg);
-    right: 170px;
-    top: 140px;
+    right: 10.6rem;
+    top: 8.75rem;
     width: 200%;
 }
 
 .back__circle {
     background-color: #08A6E4;
     border-radius: 50%;
-    width: 350px;
-    height: 350px;
+    width: 21.9rem;
+    height: 21.9rem;
     position: relative;
-    left: 20px;
+    left: 1.25rem;
 }
 
 .back__circle img {
     position: relative;
     width: 155%;
     left: 1px;
-    top: 25px;
+    top: 1.55rem;
 }
 
 #benefits div.trumpet {
     background-color: #55DFB4;
+    background-image: url("assets/Trumpet.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
     border-radius: 5px;
-}
-
-img.trumpet {
-    height: 70%;
-    position: relative;
-    top: 130px;
-    left: 25px;
+    float: right;
+    width: 45%;
+    height: auto;
 }
 
 /*---STYLING SECTION.PRICES---*/
@@ -305,12 +305,12 @@ section#prices {
 
 section#prices div.box {
     box-sizing: border-box;
-    padding: 70px;
+    padding: 4.4rem;
 }
 
 section#prices h2 {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 2.2rem;
 }
 
 div.pricing {
@@ -323,19 +323,19 @@ div.column__pricing {
     flex-direction: column;
     align-items: center;
     border: 1px solid;
-    border-radius: 15px;
-    margin: 0 30px;
-    padding: 30px 120px;
+    border-radius: 2rem;
+    margin: 0 1.8rem;
+    padding: 1.8rem 7.5rem;
     padding-bottom: 0;
 }
 
 div.pricing div.blue {
-    padding: 30px 130px 0 130px;
+    padding: 1.8rem 8.1rem 0 8.1rem;
     box-shadow: 3px 14px 20px rgba(7,172,230,0.3)
 }
 
 div.pricing div.red, div.pricing div.mint {
-    margin: 30px;
+    margin: 1.8rem;
 }
 
 div.box div.red {
@@ -352,15 +352,15 @@ div.box div.mint {
 
 section.prices h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
 div.price {
     font-family: 'Open Sans', sans-serif;
-    font-size: 46px;
+    font-size: 2.9rem;
     font-weight: 300;
-    margin: 15px;
+    margin: 1rem;
 }
 div.red div.price {
     color: #FB3B64;
@@ -376,35 +376,35 @@ div.mint div.price {
 
 section#prices p.small {
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 3.15rem;
 }
 
 section#prices div.blue p.small {
-    margin-bottom: 70px;
+    margin-bottom: 4.4rem;
 }
 
 section#prices p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin: 13px;
+    font-size: 0.88rem;
+    margin: 0.8rem;
 }
 
 section#prices img {
-    margin-right: 5px;
+    margin-right: 0.3rem;
 }
 
 section#prices button {
     position: relative;
-    top: 35px;
+    top: 2rem;
     border: none;
-    border-radius: 40px;
+    border-radius: 2.5rem;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 700;
-    padding: 25px 80px;
+    padding: 1.6rem 5rem;
 }
 
 div.red button {
@@ -430,7 +430,7 @@ section#contact {
 #contact div.container {
     display: flex;
     justify-content: space-between;
-    padding: 100px 150px;
+    padding: 6.25rem 9.4rem;
     box-sizing: border-box;
 }
 
@@ -440,15 +440,15 @@ div.questions, div.your__info {
 
 div.questions h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 49px;
-    padding: 20px 0;
+    font-size: 3rem;
+    padding: 1.25rem 0;
 }
 
 div.questions > p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: black;
-    padding-bottom: 25px;
+    padding-bottom: 1.6rem;
 }
 
 div.contact__info {
@@ -458,15 +458,15 @@ div.contact__info {
 
 .questions p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #95989A;
-    padding: 0 15px 0 10px;
+    padding: 0 1rem 0 0.6rem;
 }
 
 div.contact__info img {
     position: relative;
-    top: 10px;
+    top: 0.6rem;
 }
 
 div.your__info {
@@ -478,19 +478,19 @@ form label {
     display: block;
     color: #08A6E4;
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 20px 0;
+    padding: 1.25rem 0;
 }
 
 form input.data {
     border: none;
     border-bottom: 1px solid #95989A;
-    padding: 10px;
+    padding: 0.6rem;
     width: 100%;
-    height: 30px;
+    height: 1.8rem;
 }
 
 input[type=checkbox] { display:none; }
@@ -500,10 +500,10 @@ input.checkbox-custom + p:before {
     border: 1px solid #95989A;
     display: inline-block;
     vertical-align: middle;
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
     padding: 2px;
-    margin-right: 10px;
+    margin-right: 0.6rem;
     text-align: center;
 }
 
@@ -513,20 +513,20 @@ input.checkbox-custom:checked + p:before {
 
 div.your__info p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
 }
 
 button.send {
     float: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    font-size:0.8rem;
     font-weight: 700;
     color: white;
     background-color: #08A6E4;
     border: none;
-    border-radius: 40px;
-    padding: 25px 90px;
+    border-radius: 2.5rem;
+    padding: 1.6rem 5.6rem;
 }
 
 /*-----STYLING FOOTER-----*/
@@ -540,24 +540,24 @@ footer {
 }
 
 div.footer, div.icons {
-    padding: 20px 160px;
+    padding: 1.25rem 10rem;
 }
 
 div.footer h3 {
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: 300;
     color: #08A6E4;
 }
 
 p.copywright {
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 0.7rem;
     color: #95989A;
 }
 
 div.icons img {
-    height: 24px;
-    width: 24px;
-    padding: 0 5px;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0 0.3rem;
 }
